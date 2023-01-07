@@ -1,4 +1,0 @@
-# .streamlit/secrets.toml
-
-server = "DESKTOP-LATITUD"
-database = "project dbms"
