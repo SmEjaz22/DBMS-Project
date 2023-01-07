@@ -25,5 +25,6 @@ def run_query(query):
 rows = run_query("SELECT * from mytable;")
 
 # Print results.
-for row in rows:
-    st.write(f"{row[0]} has a :{row[1]}:")
+for i in rows:
+    st.write(
+        f"{i[0]} has name {i[1]} ,contact no is {i[2]} and ID card is: {i[3]}")
