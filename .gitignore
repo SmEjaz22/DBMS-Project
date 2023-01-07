@@ -1,0 +1,4 @@
+# .streamlit/secrets.toml
+
+server = "DESKTOP-LATITUD"
+database = "mydb"
