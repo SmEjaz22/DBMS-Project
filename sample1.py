@@ -6,7 +6,7 @@ import pyodbc
 # Uses st.experimental_singleton to only run once.
 @st.experimental_singleton
 def init_connection():
-    return pyodbc.connect("DRIVER={ODBC Driver 17 for SQL Server};SERVER=" +
+    return pyodbc.connect("DRIVER={SQL Server};SERVER=" +
                           st.secrets['server'] +';DATABASE=' +
                           st.secrets['database'])
 
